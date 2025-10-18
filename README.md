@@ -1,1 +1,1 @@
-# cwiczenia
+# pollub-cw-public
