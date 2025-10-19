@@ -1,0 +1,54 @@
+Pytania pomocnicze 
+1) Czym jest algorytm? 
+
+- Algorytm to sekwencja kroków, które należy wykonać, aby przekształcić dane wejściowe w dane wyjściowe.
+
+2) Jaka jest różnica między językiem kompilowanym a interpretowanym? 
+
+- Kod źródłowy w języku kompilowanym jest przekształcany przez kompilator do kodu maszynowego.
+C, C++, Rust, Go;
+- Kod źródłowy jest wykonywany linia po linii przez interpreter w czasie działania programu.
+Python, JavaScript, Ruby, PHP;
+
+ODP: różnica polega na tym, że kod źródłowy musi na początku przetłumaczyć kod na odpowiedni, a następnie uruchomić program, iż w przypadku języka interpretowanego to on wprost wykonuje kod nawet nie tłumacząc go. 
+
+3) Jaką rolę pełni środowisko programistyczne (IDE)? 
+
+IDE (Integrated Development Environment)
+jest to program, który integruje wszystkie narzędzia potrzebne do pisania, testowania i debugowania kodu w jednym miejscu.
+np. - to jest Visual Studio
+
+4) Co oznacza, że C# jest językiem wysokiego poziomu? 
+to, że pisząc coś na języku wysokiego poziomu nie musimy wiedzieć jak zarządzać pamięcią czy czymś innym w komputerze, po prostu piszemy kod i tyle. 
+Przede wszystkim oznacza to, że kod jest czytelni dla człowieka( bo wygląda on podobnie do 1001010101010) 
+Są biblioteki które gotowe do użycia.
+
+5) Jakie są podstawowe typy danych w języku C#? 
+Są różne:
+- Liczbowe całkowite
+- Liczby przecinkowe
+- Logiczne
+- Znakowe
+- Referencyjne
+
+6) W jaki sposób można sprawdzić, czy liczba jest parzysta?
+użyć '%' żeby podzielić z dzieleniem. I jeśli liczba dzieli się na 2 bez reszty to wtedy ona jest parzystą, gdyż ma jakaś resztę to nieparzystą.
+7) Co oznacza pojęcie „zmienna” i jak zadeklarować ją w języku C#? 
+
+zmienną może być czymkolwiek typ danych który może przechowywać informację
+np. int, string, itd. int = 1;
+
+8) Czym różni się rzutowanie jawne od niejawnego? 
+
+rzutowanie (ang. casting) to proces, w którym konwertujemy wartość jednego typu danych na inny typ.
+int calkowita = (int)liczba;  // jawne rzutowanie
+--------------------------------------------------------------
+int a = 10;
+double b = a;  // niejawne rzutowanie
+--------------------------------------------------------------
+pierwsze robimy świadomie, a inne po prostu automatycznie.
+
+9) Jakie są różnice między operatorami arytmetycznymi i logicznymi?
+różnica między dwoma polega na tym, że jedni tylko arytmetycznie coś robią. A inne które są logicznymi to używając true albo false.
+
+
