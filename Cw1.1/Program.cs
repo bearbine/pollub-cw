@@ -22,8 +22,8 @@ Wskazówka: do obliczenia pierwiastka kwadratowego użyj funkcji Math.Sqrt.
         double obwod = a + b + c;
         double p = 0.5 * obwod;
         double pole = Math.Sqrt(p*(p-a)*(p-b)*(p-c));
-        Console.WriteLine(obwod);
-        Console.WriteLine($"{pole}");
+        Console.WriteLine($"{obwod:F2}");
+        Console.WriteLine($"{pole:F2}");
 
     }
 }
