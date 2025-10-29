@@ -12,11 +12,13 @@ using System.ComponentModel.Design;
 string[] test = new string[5];
 bool[] toceny = new bool[5];
 string[] pytania = new string[5];
-pytania[0] = "blabla";
+pytania = ["blabla", "blabla", "blabla", "blabla", "blabla"];
+/*pytania[0] = "blabla";
 pytania[1] = "blabla1";
-pytania[2] = "blabla2";
+pytania[2] = "blabla2"; poszlo nahiuy hardcode
 pytania[3] = "blabla3";
 pytania[4] = "blabla4";
+*/
 int ocena = 0;
 for  (int i = 0; i < test.Length; i++)
 {

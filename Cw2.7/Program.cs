@@ -16,16 +16,17 @@ for (int i = 0; i < wyniki.Length; i++)
     pracownicy[i] = Console.ReadLine();
     wyniki[i] = int.Parse(Console.ReadLine());
     suma += wyniki[i];
+    
 }
-double srednia = (double)suma / (double)wyniki.Length;
+int srednia = suma / wyniki.Length;
 for (int i = 0; i < wyniki.Length; i++)
 {
     if (wyniki[i] > srednia)
         Console.WriteLine($"Wynik {pracownicy[i]}: wynosi wiecej średniej {wyniki[i]} od {srednia}");
     else if (wyniki[i] == 0)
         Console.WriteLine($"Wynik {pracownicy[i]}: wynosi {wyniki[i]} == 0 BRAK SPRZEDAŻY");
-
-
+    else
+        Console.WriteLine($"Wynik {pracownicy[i]}: wynosi {wyniki[i]} i jest mniejszy albo równy od {srednia}");
 }
 Console.WriteLine($"Maksymalny wynik wynosi {wyniki.Max()}, a minimalny {wyniki.Min()}.");
 
